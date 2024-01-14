@@ -1,0 +1,4 @@
+C:/AA-FILE/PROGRAMS/CPP/ImGuiHandler/cmake-build-debug/CMakeFiles/ImGuiHandler.dir
+C:/AA-FILE/PROGRAMS/CPP/ImGuiHandler/cmake-build-debug/CMakeFiles/ImGuiHandler_dev.dir
+C:/AA-FILE/PROGRAMS/CPP/ImGuiHandler/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/AA-FILE/PROGRAMS/CPP/ImGuiHandler/cmake-build-debug/CMakeFiles/rebuild_cache.dir

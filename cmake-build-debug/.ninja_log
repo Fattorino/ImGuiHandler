@@ -1,0 +1,16 @@
+# ninja log v5
+8	829	7269573833935234	CMakeFiles/ImGuiHandler.dir/src/imgui_stdlib.cpp.obj	7ac49b6ff55cdf9d
+0	1625	7269573841910509	CMakeFiles/ImGuiHandler.dir/src/ImGuiHandler.cpp.obj	559c56bf8e51c061
+12	1691	7269573842551523	CMakeFiles/ImGuiHandler_dev.dir/main.cpp.obj	566c62611f2d945f
+43	2126	7269573846930016	CMakeFiles/ImGuiHandler.dir/imgui_bindings/imgui_impl_opengl3.cpp.obj	eebdfa0137daba9
+38	2675	7269573852434667	CMakeFiles/ImGuiHandler.dir/imgui_bindings/imgui_impl_glfw.cpp.obj	b019a6e09e176745
+2676	2780	7269573853491817	libImGuiHandler.a	2e2c1e751345ed41
+2780	3568	7269573861296710	ImGuiHandler_dev.exe	296cca08fd03b9f6
+5	731	7269574903335964	CMakeFiles/ImGuiHandler_dev.dir/main.cpp.obj	566c62611f2d945f
+732	1222	7269574908203377	ImGuiHandler_dev.exe	296cca08fd03b9f6
+9	747	7269575186939720	CMakeFiles/ImGuiHandler_dev.dir/main.cpp.obj	566c62611f2d945f
+748	1253	7269575191950815	ImGuiHandler_dev.exe	296cca08fd03b9f6
+6	752	7269576582975331	CMakeFiles/ImGuiHandler_dev.dir/main.cpp.obj	566c62611f2d945f
+753	1448	7269576589808591	ImGuiHandler_dev.exe	296cca08fd03b9f6
+7	757	7269577094525583	CMakeFiles/ImGuiHandler_dev.dir/main.cpp.obj	566c62611f2d945f
+757	1270	7269577099617234	ImGuiHandler_dev.exe	296cca08fd03b9f6
