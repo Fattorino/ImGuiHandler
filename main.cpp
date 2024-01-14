@@ -23,12 +23,8 @@ public:
     {
         if (ImGui::BeginMenu("Demo"))
         {
-            if (ImGui::MenuItem("Win"))
-            {
-            }
-            if (ImGui::MenuItem("dow"))
-            {
-            }
+            if (ImGui::MenuItem("Win")) { }
+            if (ImGui::MenuItem("dow")) { }
             ImGui::EndMenu();
         }
     }
@@ -38,12 +34,8 @@ void menuBar()
 {
     if (ImGui::BeginMenu("Main parent window"))
     {
-        if (ImGui::MenuItem("Menu"))
-        {
-        }
-        if (ImGui::MenuItem("Bar"))
-        {
-        }
+        if (ImGui::MenuItem("Menu")) { }
+        if (ImGui::MenuItem("Bar")) { }
         ImGui::EndMenu();
     }
 }
