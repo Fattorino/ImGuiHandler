@@ -121,10 +121,3 @@ int main()
 
 ## Screenshot
 ![image](https://github.com/Fattorino/ImGuiHandler/assets/90210751/2fce095d-0f2d-44cb-b531-7959f642fb86)
-
-
-## Dependencies
-Using a package manager like Vcpkg or Conan install:
-- [Dear ImGui](https://github.com/ocornut/imgui)
-- OpenGL
-- glfw3
