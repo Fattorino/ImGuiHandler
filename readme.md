@@ -15,6 +15,12 @@ ImGuiHandler allows to manage a simple OpenGL window and the ImGui library with 
    add_subdirectory(path/to/ImGuiHandler)
    target_link_libraries(YourProject ImGuiHandler)
    ```
+3. **Dependencies**
+<BR> Make sure you have the following dependencies available for `find_package()`:
+   - [Dear ImGui](https://github.com/ocornut/imgui)
+   - OpenGL
+   - GLFW
+
 ## Basic Usage
 ### DemoWindow.h
 ```c++
