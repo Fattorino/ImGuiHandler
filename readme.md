@@ -9,6 +9,26 @@ ImGuiHandler allows to manage a simple OpenGL window and the ImGui library with 
 - Built-in ImGui handling
 
 ## Implementation (CMake project)
+### CMake `FetchContent`
+1. Add the following lines to your CMakeLists.txt:
+   ```
+   include(FetchContent)
+   FetchContent_Declare(ImGuiHandler
+        GIT_REPOSITORY "https://github.com/Fattorino/ImGuiHandler.git"
+        GIT_TAG "origin/master"
+        SOURCE_DIR "${CMAKE_CURRENT_LIST_DIR}/includes/ImGuiHandler"
+   )
+   FetchContent_MakeAvailable(ImGuiHandler)
+   ```
+   ```
+   target_link_libraries(YourProject ImGuiHandler)
+   ```
+2. Make sure you have the following dependencies available for `find_package()`:
+   - [Dear ImGui](https://github.com/ocornut/imgui)
+   - OpenGL
+   - GLFW
+
+### Manually
 1. Download and copy, or clone the repo inside your project
 2. Add the following lines to your CMakeLists.txt:
    ```
