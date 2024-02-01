@@ -1,7 +1,8 @@
 # ImGui Handler
 **Simple library to handle an OpenGL window with Dear ImGui integration**
 
-ImGuiHandler allows to manage a simple OpenGL window and the ImGui library with a simple interface.
+![image](https://github.com/Fattorino/ImGuiHandler/assets/90210751/18c16629-a39f-4835-8510-b0e2a76fe58d)
+
 
 ## Features
 - Class based windows management system
@@ -98,7 +99,7 @@ void menuBar()
 
 int main()
 {
-    if (!IGH.init("Example", 1300, 800))
+    if (!IGH.init("Example", 650, 200))
         return 1;
 
     ImGui::GetIO().IniFilename = nullptr;
@@ -118,6 +119,5 @@ int main()
     return 0;
 }
 ```
+![image](https://github.com/Fattorino/ImGuiHandler/assets/90210751/d617ef49-2dcf-42d0-be06-fec69cee16be)
 
-## Screenshot
-![image](https://github.com/Fattorino/ImGuiHandler/assets/90210751/2fce095d-0f2d-44cb-b531-7959f642fb86)
