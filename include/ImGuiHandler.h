@@ -20,6 +20,7 @@ enum IGH_Style
     IGH_Style_Light,
     IGH_Style_BrownLeather,
     IGH_Style_FoggyPurple,
+    IGH_Style_Dracula,
     IGH_Style_Custom
 };
 
@@ -61,13 +62,11 @@ public:
 			_activeWin = index;
 	}
 
-    void setCustomStyler(CustomStyler_Callback styler) { m_stylerFunc = styler; } // TODO: Add support for multiple custom styles
     void setStyle(IGH_Style style);
 private:
     GLFWwindow* window{};
 
     WinBlock _menuBar = nullptr;
-    CustomStyler_Callback m_stylerFunc = nullptr;
 
     std::vector<std::shared_ptr<appLayer>> _winsStack;
     int _activeWin = -1;
